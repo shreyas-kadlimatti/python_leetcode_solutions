@@ -9,4 +9,5 @@ class Solution:
                 count=count-1
                 if count==0:
                     m=nums[i]
+                    count=1
         return m
