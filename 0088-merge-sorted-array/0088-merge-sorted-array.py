@@ -16,5 +16,7 @@ class Solution:
                 nums1[pf]=nums2[p2]
                 p2=p2-1
                 pf=pf-1
+
+#Merge sort algorithm  used
             
             
