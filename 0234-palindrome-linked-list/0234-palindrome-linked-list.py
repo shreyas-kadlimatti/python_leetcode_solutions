@@ -6,6 +6,7 @@
 class Solution:
     
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        #1st approach
         # l=[]
         # cur=head 
         # while cur!=None:
@@ -15,6 +16,8 @@ class Solution:
         #     return True
         # return False
 
+        #second approach:
+        
         #base case:
         if not head or not head:
             return True
